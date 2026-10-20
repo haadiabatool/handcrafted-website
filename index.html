@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Announcement Bar -->
+    <h3 class="announcement-bar">Handcrafted with love, Custom gifts available.</h3>
+
+    <!--Header-Section  |  Landing Page -->
+    <main class="hero-section">
+
+        <!-- center Text -->
+
+        <div class="hero-text">
+            <span class="hero-eyebrow">HANDMADE WITH LOVE</span>
+
+            <h1 class="hero-heading">
+                Little Things,<br>
+                <span class="hero-static">Made to Feel</span>
+                <span class="hero-changing" id="heroChangingWord">Jewelry</span>
+            </h1>
+
+            <p>
+                Thoughtfully handcrafted treasures, personalized gifts,and little details that make every moment
+                special.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#collections" class="btn hero-btn-primary">
+                    Explore Collection
+                    <span class="hero-arrow">&rarr;</span>
+                </a>
+
+                <a href="#our-story" class="btn hero-btn-secondary">
+                    Our Story
+                    <span class="hero-story-icon">✳</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Right Side / Background Image Slider -->
+        <div class="slider-container">
+
+            <img src="assets/for-background.png" alt="background-image" class="slide active">
+            <img src="assets/background-2.jpeg" alt="background-image" class="slide">
+            <img src="assets/packed-gift-2.jpeg" alt="background-image" class="slide">
+
+            <!-- Header over Background Image -->
+            <header class="header-section">
+
+                <!-- Logo -->
+                <a href="#" class="brand-logo">
+                    <span class="logo-icon">✳</span>
+
+                    <span class="logo-text">
+                        <span class="logo-name">Willow & Oak</span>
+                        <span class="logo-tagline">HANDCRAFTED TREASURES</span>
+                    </span>
+                </a>
+
+                <!-- Navigation -->
+                <nav class="nav-menu" id="navMenu">
+                    <a href="#home" class="nav-link active">Home</a>
+                    <a href="#collections" class="nav-link">Collection</a>
+                    <a href="#our-story" class="nav-link">Our Story</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </nav>
+
+
+                <!-- Mobile Menu Button -->
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false"
+                    type="button">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+            </header>
+
+        </div>
+
+    </main>
+
+    <!-- Jewelry, Candles & Personalized Gifts  SeCTION 2-->
+    <section class="all-in-one">
+
+        <!-- Section Heading -->
+        <div class="collection-heading">
+            <span>MADE WITH LOVE</span>
+            <h2>Little Things, Beautifully Made</h2>
+            <p>Thoughtful details to make your everyday moments special.</p>
+        </div>
+
+        <!-- Two-column image grid -->
+        <div class="collection-grid">
+
+            <!-- Large Jewelry Image -->
+            <a href="#jewelry" class="collection-card jewelry-card">
+                <img src="assets/all-jewlery.jpeg" alt="Handcrafted jewelry" class="collection-image">
+
+                <div class="collection-overlay"></div>
+
+                <div class="collection-content">
+                    <span class="collection-number">01 / COLLECTION</span>
+                    <h3>Jewelry</h3>
+                    <p>
+                        Delicate details, timeless beauty.Little treasures made to be cherished.
+                    </p>
+
+                </div>
+            </a>
+
+            <!-- Right Column -->
+            <div class="collection-side">
+
+                <!-- Candles Image -->
+                <a href="#candles" class="collection-card small-card">
+
+                    <img src="assets/candle-1.jpeg" alt="Handcrafted scented candles" class="collection-image">
+
+                    <div class="collection-overlay"></div>
+
+                    <div class="collection-content">
+                        <span class="collection-number">02 / COLLECTION</span>
+                        <h3>Candles</h3>
+
+                        <p>
+                            Soft scents and warm moments for your favorite spaces.
+                        </p>
+
+                    </div>
+
+                </a>
+
+                <!-- Personalized Gifts Image -->
+                <a href="#personalized-gifts" class="collection-card small-card">
+
+                    <img src="assets/customized-gift.jpeg" alt="Personalized handmade gifts" class="collection-image">
+
+                    <div class="collection-overlay"></div>
+
+                    <div class="collection-content">
+                        <span class="collection-number">03 / COLLECTION</span>
+
+                        <h3>Personalized Gifts</h3>
+                        <p>
+                            Made just for them, with a little extra love in every detail.
+                        </p>
+
+                    </div>
+
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- COLLECTION's PICTURES SecTION 3 -->
+    <section class="collections-section" id="collections">
+        <!-- Overall Main Heading -->
+        <div class="collections-header">
+            <span class="section-tag">Thoughtful Gifts, Beautiful Details</span>
+
+            <h2 class="main-heading">OUR EXQUISITE COLLECTIONS</h2>
+
+            <div class="heading-line"></div>
+        </div>
+
+        <div class="collections-container">
+
+            <!-- 1. JEWELRY COLLECTION  -->
+            <div class="collection-row reverse">
+                <!-- Right Side Text -->
+                <div class="text-wrapper">
+
+                    <span class="collection-subtitle">Handcrafted Elegance</span>
+
+                    <h1 class="collection-title">JEWELRY COLLECTION</h1>
+
+                    <p class="collection-desc">
+                        Discover beautiful handmade jewelry crafted with care. From delicate necklaces to elegant rings
+                        and earrings, each piece adds a special touch to your everyday style.
+                    </p>
+                    <a href="#jewelry" class="explore-btn" data-gallery="jewelry">
+                        Discover Jewelry →
+                    </a>
+                </div>
+
+                <!-- Left Side Images Stack -->
+                <div class="images-wrapper">
+
+                    <div class="image-grid">
+
+                        <img src="assets/all-jewlery-2.jpeg" alt="Jewelry Item 1" class="grid-img">
+                        <img src="assets/all-jewlery.jpeg" alt="Jewelry Item 2" class="grid-img">
+                        <img src="assets/customized-gift-packing-4.jpeg" alt="Jewelry Item 3" class="grid-img">
+                        <img src="assets/earing-and-neclace.jpeg" alt="Jewelry Item 4" class="grid-img">
+
+                    </div>
+                    <!-- 5th Overlapping Image -->
+                    <div class="overlay-image-card">
+                        <img src="assets/earing-packed.jpeg" alt="Featured Jewelry" class="featured-img">
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- 2. CANDLES COLLECTION  -->
+            <div class="collection-row">
+                <!-- Left Side Text -->
+                <div class="text-wrapper">
+
+                    <span class="collection-subtitle">Aromatherapeutic Ambiance</span>
+
+                    <h1 class="collection-title">CANDLES COLLECTION</h1>
+
+                    <p class="collection-desc">
+                        Bring warmth and calm to your space with our hand-poured candles. Made with natural scents and
+                        carefully chosen ingredients, they make every moment feel cozy and relaxing.
+                    </p>
+
+                    <a href="#candles" class="explore-btn" data-gallery="candles">
+                        Explore Aromas →
+                    </a>
+                </div>
+
+                <!-- Right Side Images Stack -->
+                <div class="images-wrapper">
+                    <div class="image-grid">
+
+                        <img src="assets/candles2.jpeg" alt="Candle 1" class="grid-img">
+                        <img src="assets/candle-use.jpeg" alt="Candle 2" class="grid-img">
+                        <img src="assets/candles-also-use.jpeg" alt="Candle 3" class="grid-img">
+                        <img src="assets/manycandles.jpeg" alt="Candle 4" class="grid-img">
+
+                    </div>
+                    <!-- 5th Overlapping Image -->
+                    <div class="overlay-image-card">
+
+                        <img src="assets/candle-with -flower.jpeg" alt="Featured Candle" class="featured-img">
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- 3. PERSONALIZED GIFTS COLLECTION -->
+            <div class="collection-row reverse">
+                <!-- Right Side Text -->
+                <div class="text-wrapper">
+
+                    <span class="collection-subtitle">Heartfelt Treasures</span>
+
+                    <h1 class="collection-title">PERSONALIZED GIFTS</h1>
+
+                    <p class="collection-desc">
+                        Make every occasion special with personalized gifts made with love. From custom gift boxes to
+                        thoughtful keepsakes, find something meaningful for the people you cherish.
+                    </p>
+
+                    <a href="#gifts" class="explore-btn" data-gallery="gifts">
+                        Customize A Gift →
+                    </a>
+                </div>
+
+                <!-- Left Side Images Stack -->
+                <div class="images-wrapper">
+                    <div class="image-grid">
+
+                        <img src="assets/customized-gift-1.jpeg" alt="Gift Item 1" class="grid-img">
+                        <img src="assets/customized-gift-packing-3.jpeg" alt="Gift Item 2" class="grid-img">
+                        <img src="assets/customized-gift-packing-5.jpeg" alt="Gift Item 3" class="grid-img">
+                        <img src="assets/customized-gift-packing-6.jpeg" alt="Gift Item 4" class="grid-img">
+
+                    </div>
+                    <!-- 5th Overlapping Image -->
+                    <div class="overlay-image-card">
+
+                        <img src="assets/customized-gift.jpeg" alt="Featured Gift" class="featured-img">
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Section --4 | Made BY HAND Gallery-->
+    <section class="handmade-gallery" id="handmade-gallery">
+
+        <div class="gallery-heading">
+
+            <span class="section-tag">MADE BY HAND, WITH LOVE</span>
+
+            <h2 class="main-heading">Our Handmade Gallery</h2>
+
+            <div class="heading-line"></div>
+
+        </div>
+
+        <div class="gallery-grid">
+
+            <div class="gallery-item item-1">
+                <img src="assets/handmade-gallery-1.jpeg" alt="Handcrafted jewelry collection" loading="lazy">
+            </div>
+
+            <div class="gallery-item item-2">
+                <img src="assets/handmade-gallery-2.jpeg" alt="Handmade scented candle" loading="lazy">
+            </div>
+
+            <div class="gallery-item item-3">
+                <img src="assets/handmade-gallery-3.jpeg" alt="Personalized handmade gift" loading="lazy">
+            </div>
+
+            <div class="gallery-item item-4">
+                <img src="assets/handmade-gallery-4.jpeg" alt="Beautifully wrapped handmade present" loading="lazy">
+            </div>
+
+            <div class="gallery-item item-10">
+                <img src="assets/handmade-gallery-10.jpeg" alt="New artisanal creation" loading="lazy">
+            </div>
+
+            <div class="gallery-item item-5">
+                <img src="assets/handmade-gallery-5.jpeg" alt="Handmade gifts being prepared with care" loading="lazy">
+            </div>
+
+            <div class="gallery-item item-6">
+                <img src="assets/handmade-gallery-6.jpeg" alt="Warm handmade candles" loading="lazy">
+            </div>
+
+            <div class="gallery-item item-7">
+                <img src="assets/handmade-gallery-7.jpeg" alt="Thoughtfully arranged personalized gift" loading="lazy">
+            </div>
+
+            <div class="gallery-item item-8">
+                <img src="assets/handmade-gallery-8.jpeg" alt="Rustic gift wrapping with natural details"
+                    loading="lazy">
+            </div>
+
+            <div class="gallery-item item-9">
+                <img src="assets/handmade-gallery-9.jpeg" alt="Delicate handmade jewelry" loading="lazy">
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- Section 5: Our Story -->
+    <section class="our-story-section" id="our-story">
+
+        <div class="our-story-container">
+
+            <!-- LEFT: Story Content -->
+            <div class="story-content">
+
+                <span class="story-eyebrow">
+                    <span class="story-eyebrow-line"></span>
+                    OUR STORY
+                </span>
+
+                <h2 class="story-heading">
+                    A Dream Turned Into
+                    <span>Handmade Treasures</span>
+                </h2>
+
+                <p class="story-intro">
+                    Hi, I'm Ayesha — the heart behind Willow & Oak.
+                </p>
+
+                <p class="story-paragraph">
+                    What started as a little hobby, creating thoughtful gifts for the people I love, slowly grew into
+                    something
+                    much more meaningful. I discovered that the smallest things often carry the biggest emotions.
+                </p>
+
+                <p class="story-paragraph">
+                    From choosing beautiful materials to carefully
+                    wrapping every order, I put a little piece of myself into everything I create. Every piece of
+                    jewelry,
+                    every candle, and every personalized gift is made to help someone feel remembered and loved.
+                </p>
+
+                <p class="story-paragraph">
+                    Willow & Oak is my little corner of creativity, a place where ordinary moments become special
+                    memories, one handmade treasure at a time.
+                </p>
+
+                <div class="story-signature">
+                    <span>Made slowly, given with love.</span>
+                    <span class="story-heart">♥</span>
+                </div>
+
+                <a href="#collections" class="story-button">
+                    Explore Our Collection
+                    <span aria-hidden="true">&rarr;</span>
+                </a>
+
+            </div>
+
+            <!-- RIGHT: Organized Image Collage -->
+            <div class="story-visual">
+
+                <!-- Main Image -->
+                <div class="story-main-image">
+                    <img src="assets/our-story.jpeg" alt="The maker carefully preparing a handmade gift" loading="lazy">
+
+                    <span class="story-image-label">
+                        A little love in every detail
+                    </span>
+                </div>
+
+                <!-- Smaller Images -->
+                <div class="story-detail-images">
+
+                    <div class="story-detail-card story-jewelry-image">
+                        <img src="assets\earing-packed.jpeg" alt="Delicate handmade jewelry" loading="lazy">
+
+                        <span>Made to be cherished</span>
+                    </div>
+
+                    <div class="story-detail-card story-candle-image">
+                        <img src="assets\gift-packing.jpeg" alt="Warm handmade candles" loading="lazy">
+
+                        <span>Little moments of warmth</span>
+                    </div>
+
+                </div>
+
+                <!-- Decorative Note -->
+                <div class="story-note">
+                    <span class="story-note-symbol">✳</span>
+                    <span>Thoughtfully made,<br>from the heart.</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Contact Section -->
+    <!-- Contact Info Section -->
+    <section class="contact-section" id="contact">
+        <div class="contact-header">
+            <span class="contact-tag">Get In Touch</span>
+            <h2 class="contact-main-heading">Let's Connect & Collaborate</h2>
+            <div class="contact-line"></div>
+        </div>
+
+        <div class="contact-container">
+
+            <!-- Left Side: Intro & Message -->
+            <div class="contact-info-card">
+                <h3 class="info-title">Reach Out Directly</h3>
+                <p class="info-desc">
+                    Whether you're looking for custom handmade gifts, bespoke jewelry, or professional web development
+                    services for your brand or Fiverr, I'm always open to discussing new projects and creative ideas.
+                </p>
+                <div class="availability-badge">
+                    <span class="status-dot"></span> Available for Freelance & Custom Orders
+                </div>
+            </div>
+
+            <!-- Right Side: Contact Details Grid -->
+            <div class="contact-details-grid">
+
+                <div class="contact-card">
+                    <div class="info-icon">&#9993;</div>
+                    <div class="info-content">
+                        <h4>Email Me</h4>
+                        <p>contact@yourbrand.com</p>
+                    </div>
+                </div>
+
+                <div class="contact-card">
+                    <div class="info-icon">&#9743;</div>
+                    <div class="info-content">
+                        <h4>WhatsApp / Call</h4>
+                        <p>+92 300 1234567</p>
+                    </div>
+                </div>
+
+                <div class="contact-card">
+                    <div class="info-icon">&#9906;</div>
+                    <div class="info-content">
+                        <h4>Location</h4>
+                        <p>Available Worldwide (Remote & Fiverr)</p>
+                    </div>
+                </div>
+
+                <div class="contact-card">
+                    <div class="info-icon">&#9733;</div>
+                    <div class="info-content">
+                        <h4>Fiverr Profile</h4>
+                        <p>View My Services & Portfolio</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Gallery Popup -->
+    <div class="gallery-overlay-1" id="galleryOverlay">
+        <div class="gallery-popup-1" role="dialog" aria-modal="true" aria-labelledby="galleryTitle">
+
+            <button class="gallery-close-1" id="galleryClose" aria-label="Close gallery">&times;</button>
+
+            <span class="gallery-eyebrow-1">MADE WITH LOVE</span>
+
+            <h2 id="galleryTitle">Our Collection</h2>
+
+            <p class="gallery-description-1" id="galleryDescription">
+                Discover our handmade treasures.
+            </p>
+
+            <div class="gallery-grid-1" id="galleryGrid"></div>
+
+        </div>
+    </div>
+
+
+    <script src="collection.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
