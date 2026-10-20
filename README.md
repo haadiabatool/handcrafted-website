@@ -28,3 +28,5 @@ JavaScript
 
 ## ScreenShots
 ![image](handmade-1.jpeg)
+![image](handmade-2.jpeg)
+![image](handmade-3.jpeg)
