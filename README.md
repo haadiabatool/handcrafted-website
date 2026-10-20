@@ -30,3 +30,6 @@ JavaScript
 ![image](handmade-1.jpeg)
 ![image](handmade-2.jpeg)
 ![image](handmade-3.jpeg)
+![image](handmade-4.jpeg)
+![image](handmade-5.jpeg)
+![image](handmade-6.jpeg)
